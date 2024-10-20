@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&family=Roboto:wght@300&display=swap');
+
+
+
+ *{
+    margin: 0;
+ 	padding: 0;
+ 	box-sizing: border-box;
+ 
+ }
+ body{ 
+
+ 	font-family:roboto, sans-serif;
+ 	font-family: 'Merriweather', serif;
+ }
+ 
+ header {
+ 	width: 100%;
+ 	height: 60px;
+ 	background: #FAB800;
+ 	color:#fff;
+ 	position: fixed;
+ 	top: 0;
+ 	left: 0;
+ 	z-index: 100;
+ }
+
+ .contenedor {
+ 	width: 98%;
+ 	margin:auto;
+
+ }
+
+ 
+ header .contenedor {
+ 	display: table;
+ }
+ /*.contenedor  img{
+	margin-top: 5px;
+    
+}*/
+
+section {
+
+	width: 100%;
+	margin-bottom: 25px;
+	
+}
+/*menu*/
+
+#menu-bar{
+	display: none;
+
+
+}
+
+header label{
+	float: right;
+	font-size: 70px;
+	margin-right: 10px;
+	cursor:pointer;
+
+}
+.icon-menu{
+
+	background: none;
+    line-height: 40px;
+	margin-top: 10px;
+	color: #fff;
+	
+
+}
+header a img{
+	margin-top: 5px;
+	margin-left: 8px;
+
+
+}
+
+.menu{
+	position: absolute;
+	top: 60px;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	color: rgba(51,51,51,0.9);
+	transition: all 0.5s;
+	transform: translateX(-100%);
+	background: #000;
+
+
+	
+}
+nav .menu a{
+
+}
+.menu a{
+	
+	margin-top: 5px;
+	display: block;
+	color:#fff;
+	padding: 5px;
+	text-decoration: none;
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+
+}
+.menu a:hover{
+	background: rgba(255,255,255,0.3);
+}
+#menu-bar:checked~ .menu{
+  transform: translateX(0);
+
+}
+
+/*banner
+
+#banner {
+	margin-top: 60px;
+	position: relative;
+	
+
+}
+
+#banner img{
+	width: 100%;
+	height: 100%;
+	
+}
+#banner .contenedor {
+  
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	color: red;
+	border:#fff;
+
+}
+
+#banner h2{
+	font-size: 26px;
+
+}
+#banner p{
+	font-size: 18px;
+}
+#banner a {
+	display: block;
+	width: 100px;
+	text-decoration: none;
+	color: red;
+	padding: 5px;
+	margin-top: 10px;
+	border:3px solid red;
+	text-align: center;
+	border-radius: 10px;
+	font-size: 18px;
+}
+#banner a:hover {
+	b*/
+#bienvenidos{
+	text-align: center;
+
+
+
+}/*
+#bienvenidos .contenedor{
+	width: 90%;
+	justify-content: center;
+	padding: 10px;
+	border: 1px solid #006699;
+	border-radius: 10px;
+	box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+
+}*/
+#bienvenidos p{
+	font-size: 16px;
+}
+#bienvenidos .contenedor{
+	margin-top: 80px;
+	width: 95%;
+	justify-content: center;
+	padding: 10px;
+	border: 1px solid #000;
+	border-radius: 10px;
+	box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+
+}
+
+ #mapa .contenedor {
+	
+    margin-top: 30px;
+	width: 95%;
+	justify-content: center;
+	padding: 10px;
+	border: 1px solid #000;
+	border-radius: 10px;
+	box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+
+}
+iframe {
+width: 100%;
+
+ 
+ m 
+
+}
+/*blog*/
+
+  
+#contacto{
+	background: #000;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 0;
+}
+#contacto .contenedor{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+#contacto p {
+	
+
+}
+#contacto img {
+	width: 40px;
+	height: 40px;
+	margin: 5px;
+
+}
+footer .contenedor{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 0px;
+  background: #fab800;
+  text-align: center;
+}
+.copy{
+	font-size: 20px;
+	font-family: century;
+}
+@media (min-width:768px) {
+
+	/*header .contenedor{
+		width: 100%;
+		height: 90px;
+	}*/
+	header {
+		width: 100%;
+		height: 100px;
+		background: #FAB800;
+		color:#fff;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 100;
+	}
+	.logo{
+		width: 240px;
+	}
+	header label{
+		float: right;
+		font-size: 80px;
+		margin-right: 10px;
+		cursor:pointer;
+		margin-bottom: 30px;
+	
+	
+	
+	}
+	.menu {
+		background: #fab800;
+		margin-top: 50px;
+		margin-right: 60px;
+		position: static;
+		width: 320px;
+		height: 35px;
+		display: flex;
+		float: right;
+		transform: translateX(0%);
+	}
+	.menu a{
+			border-bottom: 0px;
+	}
+	header a img{
+		margin-top: 5px;
+		margin-left: 90px;
+	
+	
+	}
+	
+	header label{
+		display: none;
+	}
+	
+	.menu :hover{
+		color:#000;
+	}
+	
+	header img{
+		margin-left: 40px;
+	
+	}
+	
+	
+	
+	header .container a img{
+	   margin-top: 10px;
+	}
+	#banner {
+		margin-top: 85px;
+		position: relative;
+		
+	
+	}
+    #bienvenidos .contenedor{
+        margin-top: 120px;
+        width: 95%;
+        justify-content: center;
+        padding: 10px;
+        border: 0px solid #006699;
+        border-radius: 10px;
+        box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    
+    }
+    /*blog*/
+    #blog .contenedor{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;border: 
+        border: 1px solid #000;
+        box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+        border-radius: 10px;
+    }
+    
+	
+	}
+@media (min-width:1024px) {
+
+/*header .contenedor{
+	width: 100%;
+	height: 90px;
+}*/
+header {
+	width: 100%;
+	height: 100px;
+	background: #FAB800;
+	color:#fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+.logo{
+	width: 240px;
+}
+header label{
+	float: right;
+	font-size: 80px;
+	margin-right: 10px;
+	cursor:pointer;
+	margin-bottom: 30px;
+
+
+
+}
+.menu {
+    background: #fab800;
+	margin-top: 50px;
+	margin-right: 100px;
+	position: static;
+	width: 320px;
+	height: 35px;
+	display: flex;
+	float: right;
+	transform: translateX(0%);
+}
+.menu a{
+		border-bottom: 0px;
+}
+header a img{
+	margin-top: 5px;
+	margin-left: 90px;
+
+
+}
+
+header label{
+	display: none;
+}
+
+.menu :hover{
+	color:#000;
+}
+
+header img{
+	margin-left: 90px;
+
+}
+
+
+
+header .container a img{
+   margin-top: 10px;
+}
+#banner {
+	margin-top: 85px;
+	position: relative;
+	
+    
+}
+
+#bienvenidos .contenedor{
+    margin-top: 120px;
+    width: 95%;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+
+}
+}
